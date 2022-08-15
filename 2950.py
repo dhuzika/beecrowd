@@ -1,0 +1,6 @@
+linha = input().split()
+a = int(linha[0])
+b = int(linha[1])
+c = int(linha[2])
+d = a/(b+c)
+print(f"{d:.2f}")

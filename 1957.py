@@ -1,0 +1,5 @@
+a = int(input())
+h = hex(a)
+lista = list(h)
+b = str(lista).replace("[","").replace("]","").replace(",","").replace("'","").replace(" ","").upper()
+print(b[2:])
